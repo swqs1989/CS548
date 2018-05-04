@@ -1,0 +1,37 @@
+@relation stackoverflow.data
+
+@attribute False {0, 1}
+@attribute None {0, 1}
+@attribute True {0, 1}
+@attribute and {0, 1}
+@attribute as {0, 1}
+@attribute assert {0, 1}
+@attribute break {0, 1}
+@attribute class {0, 1}
+@attribute continue {0, 1}
+@attribute def {0, 1}
+@attribute del {0, 1}
+@attribute elif {0, 1}
+@attribute else {0, 1}
+@attribute except {0, 1}
+@attribute finally {0, 1}
+@attribute for {0, 1}
+@attribute from {0, 1}
+@attribute global {0, 1}
+@attribute if {0, 1}
+@attribute import {0, 1}
+@attribute in {0, 1}
+@attribute is {0, 1}
+@attribute lambda {0, 1}
+@attribute nonlocal {0, 1}
+@attribute not {0, 1}
+@attribute or {0, 1}
+@attribute pass {0, 1}
+@attribute raise {0, 1}
+@attribute return {0, 1}
+@attribute try {0, 1}
+@attribute while {0, 1}
+@attribute with {0, 1}
+@attribute yield {0, 1}
+
+@data

@@ -1,0 +1,13 @@
+sudo pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.9.0rc0-cp27-none-linux_x86_64.whl
+EllipticEnvelope
+number of data bytes from source to destination
+
+serializing and de-serializing
+
+network intrusion detection dataset
+
+wget --no-cookies \
+--no-check-certificate \
+--header "Cookie: oraclelicense=accept-securebackup-cookie" \
+"http://download.oracle.com/otn-pub/java/jdk/9.0.1+11/jdk-9.0.1_linux-x64_bin.tar.gz" \
+-O jdk-9-linux-x64.tar.gz

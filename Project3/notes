@@ -1,0 +1,88 @@
+Python Questions from Stack Overflow
+
+Full text of questions and answers from Stack Overflow that are tagged with the python tag
+
+Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers.
+
+WordNetLemmatizer, PorterStemmer
+
+Orange.associate.AssociationRulesSparseInducer
+
+Association Rules:{
+    buildAssociations(instances){
+        findLargeItemSets(): iteration to find from 1..k itemsets satisfied the given support.
+        {
+            upDateCounters(): count support for each itemset
+            pruneItemSets(): Prunes a set of (k)-item sets using the given (k-1)-item sets.
+            {
+              for itemset in itemsets:
+                for item in itemset:
+                  if item is not in k-1 itemset:
+                    not add to itemsets and break.
+            }
+            deleteItemSets(): delete those itemsets that do not satisfy the give support range.
+        }
+        if metric != confidence:
+          findRulesBruteForce():{
+
+          }
+        else:
+          findRulesQuickly():{
+            generateRules(){
+              generate rules with one consequence
+              generate rules with more than one consequence
+            }
+          }
+        generateRules(confidence): {
+          use contingencyTable to calculate other rules
+        }
+
+        Using the according metrics to calculate
+
+
+    }
+}
+
+
+programming language:
+javascript
+java
+php
+css
+ruby
+c
+swift
+scala
+r
+matlab
+python
+
+javascript,java,php,css,ruby,c,swift,scala,r,matlab
+
+languages = {"javascript": 0,"java": 1,"php": 2,"css": 3,"ruby": 4,"c": 5,"swift": 6,"scala": 7,"r": 8,"matlab": 9,"python": 10}
+
+
+itemset = pd.DataFrame(itemset)
+itemset["content"] = itemset["content"].apply(lambda x: ",".join(tokenize(x)))
+itemset.to_csv("stackoverflow_default_django_text.csv", header=False, index=False)
+
+# pandas topic extraction
+ids_pandas = tags[tags["Tag"] == "pandas"]["Id"]
+ids_pandas = pd.DataFrame(ids_pandas)
+pandas_questions = ids_pandas.set_index('Id').join(questions.set_index('Id'))
+
+pd_text_df = pd_text_tfidf.toarray()
+pd_text_df = pd.DataFrame(pd_text_df, columns=pd_wordbag)
+for word in pd_wordbag:
+    pd_text_df.ix[pd_text_df[word] == 0, word] = 0
+    pd_text_df.ix[pd_text_df[word] != 0, word] = 1
+    pd_text_df[word] = pd_text_df[word].astype(int)
+
+pd_vectorizedtext.to_csv("stackoverflow_default_django.csv", header=False, index=False)
+pd_arfffile = open("stackoverflow_default_django.arff", "w")
+pd_arfffile.write("@relation stackoverflow_pandas.data\n")
+for s in pd_wordbag:
+    pd_arfffile.write("@attribute " + s + " {0, 1}\n")
+pd_arfffile.close()
+
+numpy,scipy,pandas,matplotlib,sklearn,tensorflow,nltk,seaborn,scrapy,statsmodels
